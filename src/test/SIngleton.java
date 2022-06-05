@@ -1,3 +1,5 @@
+package test;
+
 public class SIngleton {
     private static SIngleton instance;
 

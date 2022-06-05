@@ -1,3 +1,5 @@
+package test
+
 class diguidemo {
 }
 /**
@@ -8,7 +10,7 @@ fun fact(num:Int):Int{
     if (num == 1){
         return 1
     }else{
-        return  num*fact(num-1)
+        return  num* fact(num-1)
     }
 }
 //尾递归优化
@@ -16,7 +18,7 @@ fun olladd(num: Int):Int{
     if (num ==1){
         return 1;
     }else{
-        return num +olladd(num-1)
+        return num + olladd(num-1)
     }
 }
 

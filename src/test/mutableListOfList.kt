@@ -1,3 +1,5 @@
+package test
+
 fun main(){
     //创建可变的集合
     var list2 = mutableListOf<String>("Apple","banana","orange","pear")

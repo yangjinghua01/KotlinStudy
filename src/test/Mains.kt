@@ -1,3 +1,5 @@
+package test
+
 //类和对象的使用测试类
 fun main(){
     var person = Person("tom", 12);

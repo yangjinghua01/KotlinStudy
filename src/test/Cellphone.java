@@ -1,3 +1,5 @@
+package test;
+
 import java.util.Objects;
 
 /**
@@ -27,7 +29,7 @@ class Cellphones {
 
     @Override
     public String toString() {
-        return "Cellphone{" +
+        return "test.test.Cellphone{" +
                 "brand='" + brand + '\'' +
                 ", price=" + price +
                 '}';

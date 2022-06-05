@@ -1,3 +1,5 @@
+package test
+
 /**
  * 这里注意默认kotlin是不支持继承的。必须加上open才能被继承
  */

@@ -1,3 +1,5 @@
+package test
+
 import java.lang.Math.max
 
 /**
@@ -31,7 +33,7 @@ fun methodName(param1:Int,param2: Int):Int{
 }
 /**
  * 对应java来理解上面的东西
- * public int methodName(int param1,int param2){
+ * public int test.test.methodName(int param1,int param2){
  *return 0;
  *}
  * fun 是定义函数的关键字 fun 后面跟的是函数名 函数名后面的括号里是参数 上面的函数接受两个int 类型的参数 在后面：Int 是函数的返回值
